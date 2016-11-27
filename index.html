@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Room reservation</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<h1>Room reservation</h1>
+		</header>
+		<main>
+			<section>
+				<header>
+					<h4>Basic Information</h4>
+				</header>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				Praesent at nibh varius odio sollicitudin blandit nec eu elit. 
+				Suspendisse ac risus nunc, quis elementum lorem. 
+				Pellentesque vehicula egestas eros nec commodo.</p>
+				<div class="search">
+					<label for="">Search </label>	 
+					<input type="text" />
+					<button><img src="images/search.png" alt=""></button>
+				</div>
+			</section> 
+			
+			<section>
+				<div class="left">
+					<header> 
+						<h4>Personal Details</h4>
+					</header>
+					<input type="text" placeholder="First Name" />
+					<input type="text" placeholder="Last Name" />
+					<input type="email" placeholder="Enter email" />
+				</div>
+				
+				<div class="right">
+					<header>
+						<h4>Request a reservation</h4>
+					</header>
+					<div>
+						<div class="form-control select-room">
+							<label for="room">Select a room:</label>
+							<select name="" id="room">
+								<option value="">Room 1</option>
+								<option value="">Room 2</option>
+								<option value="" selected="selected">Room 3</option>
+								<option value="">Room 4</option>
+							</select>
+						</div>
+
+						<div class="form-control count-rooms">
+							<label for="rooms-count">Number of Rooms:</label>
+							<input type="number" id="rooms-count" value="1" />
+						</div>
+						
+						<div class="form-control date">
+							<label for="check-in">Check-In:</label> 
+							<input type="date" id="check-in" />
+						</div>
+						<div class="form-control date">
+							<label for="check-out">Check-Out:</label>
+							<input type="date" id="check-out" />
+						</div>
+					</div>
+				</div>
+			</section>
+			<button class="book-now">Book Now</button>
+		</main>
+	</div>
+</body>
+</html>

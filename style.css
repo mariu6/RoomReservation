@@ -1,0 +1,160 @@
+body {
+		background-color: #EBEBEB;
+		margin: 0;
+}
+
+img {
+	width: 20px;
+}
+
+input, 
+select {
+	border: 1px #ccc;
+	border-radius: 2px;
+	height: 25px;
+	line-height: 25px;
+	padding-left: 5px;
+	margin: 5px 0;
+}
+
+label {
+	display: block;
+	font-size: 10px;
+}
+
+section {
+	 padding: 15px;
+	 border-bottom: 1px dashed #C4C4C4; 
+}
+ 
+section:after {
+	 content: "";
+	 display: block;  
+	 clear: both;
+	 height: 0;
+	 zoom: 1;
+}
+
+#wrapper {
+	font: 13px Tahoma, Helvetica, sans-serif;
+	width: 800px;
+	margin: 0 auto;
+}
+
+#wrapper > header {
+	background-color: #F1F1F1;
+	border-bottom: 1px dashed #C4C4C4; 
+}
+
+header > h1 {
+	font-size: 28px;
+	color: #31A3DF;
+	margin-top: 0;
+	padding-top: 20px;
+	font-weight: normal;
+	padding-left: 10px;
+}
+
+header > h4 {
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+ 
+ section {
+	 padding: 15px;
+	 border-bottom: 1px dashed #C4C4C4; 
+ }
+ 
+ section:after {
+	 content: "";
+	 display: block;  
+	 clear: both;
+	 height: 0;
+	 zoom: 1;
+ }
+ 
+ p {
+	width: 570px;
+	float: left;
+ }
+
+.search {
+	float: left;
+	width: 200px;
+	position: relative;
+}
+
+.search > label {
+	display: block;
+	font-weight: bold;
+
+}
+.search button {
+	margin: 0;
+	padding: 0;
+	background: none; 
+	border: 0;
+	cursor: pointer;
+	position: absolute;
+	right: 30px;
+	bottom: 6px;
+} 
+
+
+.left {
+	float: left;
+	width: 200px;
+}
+ 
+ .right {
+	 float: right;
+	 width: 570px;
+ }
+ 
+ .form-control {
+	 display: inline-block;
+	 box-sizing: border-box;
+ }
+ 
+ .select-room {
+	 width: 69%;
+ }
+ 
+ select {
+	 width: 98%;
+ }
+ 
+ .count-rooms {
+	 width: 30%; 
+ }
+ 
+ .count-rooms input {
+	 width: 93%;
+ }
+ 
+.date {
+	 width: 49%; 
+ }
+ 
+.date input {
+	 width: 98%;
+ }
+ 
+button.book-now  {
+	float: right;
+	margin-top: 20px;
+	margin-right: 25px;
+	background-color: #32A2E4;
+	color: #FFF;
+	height: 30px;
+	width: 150px;
+	border: 0;
+	border-radius: 2px;
+	cursor: pointer;
+	font-weight: bold; 
+}
+ 
+ 
+
+
+
